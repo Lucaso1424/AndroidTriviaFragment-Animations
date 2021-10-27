@@ -3,7 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidTriviaFragment/app/src/main/res/drawable/ic_overflow_holo_dark.xml" value="0.1" />
         <entry key="..\:/AndroidTriviaFragment/app/src/main/res/layout/activity_main.xml" value="0.19384057971014493" />
+        <entry key="..\:/AndroidTriviaFragment/app/src/main/res/layout/nav_header.xml" value="0.18795289855072464" />
+        <entry key="..\:/AndroidTriviaFragment/app/src/main/res/menu/menu_wea.xml" value="0.24270833333333333" />
+        <entry key="..\:/AndroidTriviaFragment/app/src/main/res/menu/navdrawer_menu.xml" value="0.24270833333333333" />
+        <entry key="..\:/AndroidTriviaFragment/app/src/main/res/menu/options_menu.xml" value="0.24270833333333333" />
         <entry key="..\:/ProyectosKotlin/AndroidTriviaFragment/app/src/main/res/layout/activity_main.xml" value="0.1793478260869565" />
         <entry key="..\:/ProyectosKotlin/AndroidTriviaFragment/app/src/main/res/layout/fragment_about.xml" value="0.1793478260869565" />
         <entry key="..\:/ProyectosKotlin/AndroidTriviaFragment/app/src/main/res/layout/fragment_game.xml" value="0.1793478260869565" />

@@ -44,4 +44,8 @@
     <string name="prova_text_view">Prova Text View</string>
     <string name="todo">TODO</string>
     <string name="internet">Internet</string>
+    <string name="descr_overflow_button" />
+    <string name="content">Content</string>
+    <string name="item2">Item2</string>
+    <string name="menu_prova">menu_prova</string>
 </resources>
