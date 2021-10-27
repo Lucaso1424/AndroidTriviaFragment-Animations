@@ -14,7 +14,8 @@
   ~ limitations under the License.
   -->
 
-<layout xmlns:android="http://schemas.android.com/apk/res/android"
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <androidx.drawerlayout.widget.DrawerLayout
@@ -28,21 +29,23 @@
             android:orientation="vertical">
 
             <!-- The NavHostFragment within the activity_main layout -->
+
             <ImageButton
                 android:id="@+id/button"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="73dp"
+                android:layout_height="55dp"
                 android:contentDescription="@string/content"
                 android:onClick="showPopup"
                 app:srcCompat="@drawable/rules" />
 
-            <androidx.fragment.app.FragmentContainerView
+            <fragment
                 android:id="@+id/myNavHostFragment"
                 android:name="androidx.navigation.fragment.NavHostFragment"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 app:navGraph="@navigation/navigation"
-                app:defaultNavHost="true" />
+                app:defaultNavHost="true"
+                />
 
         </LinearLayout>
 
